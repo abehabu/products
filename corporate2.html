@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+<title>Boss Fashion | Product Single</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="product.css">
+<script src="javascripts/modernizr.foundation.js"></script>
+<!-- Google fonts -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' />
+<!-- IE Fix for HTML5 Tags -->
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+  <header>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="registration.html">Sign Up</a></li>
+            <!-- <li><a href="login.html">Login</a></li> -->
+            <li><a href="product.html">Products</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="row page_wrap">
+  <!-- page wrap -->
+  <div class="twelve columns">
+    <!-- page wrap -->
+        <!-- END Header -->
+    <div class="row">
+      <div class="six columns"> <img src="./images/corporate2.jpg" alt=""> </div>
+      <div class="six columns">
+        <div class="panel">
+          <h3>Product Price calculator</h3>
+          <p style="font-style: italic; font-family: Georgia">Example only. Not included</p>
+          <form name="product_list" action="#">
+            <label><strong>Width (cm)</strong></label>
+            <input name="width" id="width" value="15" class="input_title_invoice" type="text">
+            <p></p>
+            <label><strong>Height (cm)</strong></label>
+            <input name="length" id="length" value="20" class="input_title_invoice" type="text">
+            <p></p>
+            <label style="font-weight:bold">Extras</label>
+            <select name="print">
+              <option value="1100">Black</option>
+              <option value="2900">Grey</option>
+              <option value="1600">Customs</option>
+            </select>
+            <!-- <p style="font-size: 11px; padding: 0 0 11px; margin-top: 9px"> <strong>*Cheese:</strong> Some description text goes here.<br>
+              <strong>*Vegetables:</strong> Some description text goes here.<br>
+              <strong>*Potatos:</strong> Some description text goes here. </p> -->
+            <input name="unit_price" id="unit_price" value="340.00" type="hidden">
+            <input value="271" name="sales_price" id="total_item" type="hidden">
+            <p style="font-size: 24px">Totals: <span id="grandTotal">$271</span></p>
+          </form>
+        </div>
+        <!-- end panel -->
+      </div>
+    </div>
+    <!-- end row -->
+    
+</div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+li{
+    list-style-type: none;
+}
+
+
+.header{
+    display: felx;
+    flex-direction: row;
+    border: 1px solid green;
+    height: 100vh;
+    background: url('/images/pexels-ivan-samkov-7620629.jpg');
+}
+#first{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+}
+ #second{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid green;
+    flex: 1;
+}
+.nav-ul{
+    border: 1px solid rgb(12, 7, 7);
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-nav{
+    display: flex;
+    flex-direction: row;
+}

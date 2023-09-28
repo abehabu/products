@@ -1,0 +1,83 @@
+body{
+    background-color: grey;
+}
+p{
+    font-family: cursive;
+    color: #ffffff;
+    font-weight: bolder;
+}
+h1{
+    font-family: cursive;
+    color: #ffffff;
+    font-weight: bolder
+}
+a{
+    text-decoration: none;
+}
+.header{
+    margin-right: 50%;
+}
+.container{
+        display: flex;
+        flex-direction: column;
+        width: 190vh;
+        /* height: 100vh; */
+        /* border: 15px solid green; */
+        padding: 50px;
+        margin: 20px;
+}
+.best-seller{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+#corporate1{
+    width: 300px;
+    height: 310px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#casual1{
+    width: 300px;
+    height: 310px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#trad1{
+    width: 300px;
+    height: 310px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.Recommended{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+#corporate2{
+    width: 300px;
+    height: 310px;
+}
+
+#corporateimg2{
+    width: 300px;
+    height: 310px;
+}
+#casual2{
+    width: 300px;
+    height: 310px;
+}
+#casualimg2{
+    width: 300px;
+    height: 310px;
+}
+#traditional-fits-2{
+    width: 300px;
+    height: 310px;
+}
+#tradimg2{
+        width: 300px;
+        height: 310px;
+}
